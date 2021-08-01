@@ -1,0 +1,39 @@
+.searchbar{
+    display: flex;
+    position: relative;
+    @media(min-width: 767px){
+        width: 50%;
+        margin: auto;
+    }
+    .search{
+        width: 100%;
+        padding: 10px 40px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: #ebebec;
+        font-size: 1.3rem;
+    }
+    .search-icon{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        img{
+            width: 20px;
+            height: 20px;
+
+        }
+    }
+    .mic{
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        img{
+            width: 25px;
+            height: 25px;
+
+        }
+    }
+}

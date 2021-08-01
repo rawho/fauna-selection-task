@@ -1,0 +1,34 @@
+.container{
+    padding: 10px;
+    .title{
+        font-size: 1.1rem;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .search-bar{
+        padding: 20px 0;
+    }
+
+    .animals-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30vh;
+    }
+
+    .bottom-bar{
+        position: fixed;
+        bottom: 0;
+
+        @media(min-width: 767px) {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+
+
+}

@@ -1,0 +1,58 @@
+.animal-card{
+    background-image: url('../../assets/tiger.jpeg');
+    background-size: cover;
+    width: 160px;
+    height: 250px;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+    @media(min-width: 767px){
+        width: 200px;
+        height: 250px;
+    }
+    
+    .dots{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        span{
+            width: 7px;
+            height: 7px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+    }
+    .bottom{
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .dets{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .heart{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            .name{
+                color: #fff;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+            
+        }
+        .food{
+          display: flex;
+          align-self: center;
+          justify-self: center;
+        }
+    }
+}

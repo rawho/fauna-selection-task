@@ -1,0 +1,19 @@
+.filters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    .filter-item{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        min-width: 150px;
+        text-align: center;
+        font-size: 1.2rem;
+        cursor: pointer;
+        border: 1px solid #00000030;
+    }
+    .active{
+        background-color: orange;
+    }
+}

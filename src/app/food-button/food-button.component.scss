@@ -1,0 +1,27 @@
+.food-button{
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    p{
+        padding: 10px;
+    }
+    .circle{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+
+        img{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            
+        }
+    }
+}
